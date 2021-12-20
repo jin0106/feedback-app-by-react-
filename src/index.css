@@ -13,6 +13,10 @@ body {
   line-height: 1.6;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 ul {
   list-style: none;
 }
@@ -186,9 +190,9 @@ input:focus {
 }
 
 .about-link {
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
   color: #fff;
   cursor: pointer;
 }
